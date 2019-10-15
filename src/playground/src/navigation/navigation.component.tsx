@@ -36,6 +36,7 @@ import {
   CalendarContainer,
   DatepickerContainer,
   RangeCalendarContainer,
+  UseThemeContainer,
 } from '../ui/screen';
 import { DrawerNavigation } from './drawerNavigation.component';
 import { sharingHeightContainer } from './sharingHeight.container';
@@ -73,6 +74,7 @@ const routes: NavigationRouteConfigMap = {
   ['Overflow Menu']: OverflowMenuContainer,
   ['Sample']: SampleContainer,
   ['Select']: SelectContainer,
+  ['Hooks']: UseThemeContainer,
 };
 
 const MenuNavigator = createStackNavigator(routes, {
